@@ -1,0 +1,83 @@
+header {
+    background: url(../image/jee1.jpg);
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+    text-align: center;
+    padding: 20px;
+    height: 300px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: darksalmon;
+    padding: 10px;
+    margin-top: 5px;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: darkslategray;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: darkred;
+    color: black;
+}
+#h1 {
+    background-color: #b4c6dc;
+    padding: 5px;
+}
+#h2 {
+    background-color: #dbb4dc;
+    padding: 5px;
+}
+#h3 {
+    background-color: #dcb4c5;
+    padding: 5px;
+}
+#p1 {
+    background-color: #a2afd8;
+    padding: 5px;
+}
+#p2 {
+    background-color: #a0dabd;
+    padding: 5px;
+}
+#p3 {
+    background-color: #d5ddb1;
+    padding: 5px;
+}
+.column {
+    float: left;
+    padding: 5px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer {
+    background-color: rgb(201, 136, 99);
+    padding: 10px;
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width:414px) {
+    .column {
+        width: 100%
+    }
+}
+img {
+    width: 230px;
+    height: 150px;
+}
